@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/iletisim.css">
+
+    <!-- Javascripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- My Javascript -->
+    <script src="js/iletisim.js"></script>
+
+    <title>İletişim</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+</head>
+
+<body>
+<header class="container-fluid"><!-- Picture --></header>
+
+<nav class="navbar navbar-dark text-white navbar-expand-lg">
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-ozel" aria-controls="navbar-ozel">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-ozel">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="anasayfa.html" class="nav-link">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ozgecmisim.html" class="nav-link">Özgeçmişim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="memleketim.html" class="nav-link">Memleketim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container-fluid">
+    <div class="iletisim">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="baslik">
+                        <h3>İletişim</h3>
+                    </div>
+                </div>
+            </div>
+
+            <form action="action.php" method="post" id="myForm" onsubmit="return checkCheckBoxes(this) && checkIsEmpty(this);">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                            <textarea placeholder="Lütfen mesajınızı buraya giriniz." class="mesaj" name="mesaj">
+
+                            </textarea>
+
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="alt">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <h4>İsim:</h4>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <input type="text"  name="isim"> <br> <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <h4>E-mail:</h4>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <input type="email" name="email"> <br> <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <h4>Cinsiyet:</h4>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <input type="radio" name="cinsiyet" value="erkek" checked> <span>Erkek</span> &emsp;
+                                        <input type="radio" name="cinsiyet" value="kadin"> <span>Kadın</span> <br> <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <h4>Yaş:</h4>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <select name="yasi">
+                                            <option value="0-18">0 - 18</option>
+                                            <option value="19-35">19 - 35</option>
+                                            <option value="36+">36+</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <br> <br> <input type="checkbox" name="check" value="kabul"><span class="container">Verilerimin gönderilmesini kabul ediyorum.</span><br> <br> <br> <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <span class="col-lg-7"></span>
+                                            <span class="col-lg-2">
+                                              <input class="buton" type="submit" value="Gönder">
+                                            </span>
+                                            <span class="col-lg-2">
+                                                <button class="buton" type="button" onclick="temizle()">Temizle</button>
+                                            </span>
+                                            <span class="col-lg-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <div class="footer-yazi">Created by Evren VURAL</div>
+        </div>
+    </div>
+
+</footer>
+
+</body>

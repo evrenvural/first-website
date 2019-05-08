@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/memleketim.css">
+
+    <!-- Javascripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/memleketim.js"></script>
+
+    <title>Memleketim</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+</head>
+
+<body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/yuvacik-baraji.jpg" alt="First slide">
+                <a href="#" onclick="changeYesil()">
+                    <div class="carousel-caption">
+                        <h4>Yeşilin ve Mavinin Kucaklaştığı Şehir</h4>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/tupras.jpg" alt="Second slide">
+                <a href="#" onclick="changeSanayi()">
+                    <div class="carousel-caption">
+                        <h4>Sanayi Üssü</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/pembe-kayalar.jpg" alt="Third slide">
+                <a href="#" onclick="changeKayalar()">
+                    <div class="carousel-caption">
+                        <h4>Antik Çağ Taş Ocağı Pembe Kayalar</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/lojistikin_merkesi_kocaeli.jpg" alt="Fourth slide">
+                <a href="#" onclick="changeLojistik()">
+                    <div class="carousel-caption">
+                        <h4>Lojistiğin Merkezinde Bir Kent Kocaeli</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-dark text-white navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="memleketim.html" style="font-size: 25px;">Kocaeli</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-ozel" aria-controls="navbar-ozel">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-ozel">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="anasayfa.html" class="nav-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ozgecmisim.html" class="nav-link">Özgeçmişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="memleketim.html" class="nav-link">Memleketim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="iletisim.html" class="nav-link">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="sol">
+                    <div class="container">
+                        <div class="sol-ust">
+                            <img src="images/foto-yuvacik.jpg" id="foto" alt="#">
+                        </div>
+                        <div>
+                            <h4  id="sol-ust-yazi">Yuvacık Barajı</h4>
+                        </div>
+                    </div>
+                    <div class="sol-alt">
+                            <h5>1966</h5>
+                            <h2>Takımımız</h2> <br>
+                            <img src="images/ks-logo-black.jpg" alt="Kocaelispor Logosu" height="150px" width="100%"> <br> <br>
+                            <a href="takimim.html" id="ks-link">Kocaelispor</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="sag">
+                    <div class="yazi container" id="ilk-yazi">
+                       <p id="p1">
+                           Yeşilin ve mavinin bir uyum içinde buluştuğu Yuvacık Barajı ve çevresi, insanların doğayla buluştuğu adeta bir cennet köşesi.
+
+                           İki büyük derenin birleştiği vadide kurulan yuvacık barajı etrafındaki alabalık tesisleri ve mesire alanları ile Kocaeli halkının yanında civar illerden ziyaretçilerinde nefes aldığı bir bölge.
+                       </p>
+                    </div>
+                    <div class="yazi container">
+                        <p  id="p2">
+                            Yuvacık Barajı'ndan Camidüzü, Değirmendüzü, Sıcakdere, Soğukdere olmak üzere dört farklı yürüyüş parkuru vardır.
+                            Camidüzü parkuru, insan eli ile oluşturulmuş bir parkurdur. Parkur uzunluğu 9 km olup, zorluk derecesi olarak kolay parkurlardan biridir. Parkurda dinlenme alanları dışında, spor yapabileceğiniz aletler de mevcut.
+                        </p>
+                    </div>
+                    <div class="yazi container">
+                        <p  id="p3">
+                            Değirmendüzünden başlayan parkur da Yuvacık Barajı'na yakın tarihi su kemerinde son bulur. Parkur uzunluğu 8 km'dir.
+                            Sıcakdere yürüyüş parkuru, kanyon yürüyüş olması nedeniyle zor parkurlardan biridir. Parkur uzunluğu 10 km'dir. Bahçecik beldesinde başlar, Yuvacık Barajı üzerinde tarihi kemerde son bulur. Sıcakdere Kanyonu, Beşkayalar Milli parkı içinde yer alır. Suyun yüksekliği ve zaman zaman geçit vermeyen kayaları nedeniyle, gruplu yürüyüş önerilir.
+                        </p>
+                    </div>
+                    <div class="yazi container">
+                        <p id="p4">
+                            Soğukdere de aynı şekilde, kanyon yürüyüş olması nedeniyle zor parkurlardan biridir. Bu nedenle de sadece yaz aylarında gidilmesi gereken bir parkurdur. Uzunluğu 11 km olup, Aytepe'den başlar, kanyon yürüyüşü devam eder ve su kemerinde son bulur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 footer">
+                <div class="footer-yazi">Created by Evren VURAL</div>
+            </div>
+        </div>
+
+    </footer>
+</body>

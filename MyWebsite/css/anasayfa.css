@@ -1,0 +1,123 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-image: url("../images/header_picture.png");
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+nav{
+    background-color: rgb(217, 79, 30);
+}
+.navbar-nav{
+    margin-right: 34%;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+/* Sol Taraf */
+.sol-kart{
+    background-color: rgb(66, 57, 50);
+    height: 850px;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.foto{
+    background-image: url("../images/fotobengitar.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 10%;
+    border-radius: 200px;
+}
+.foto-icerik{
+    height: 60%;
+    width: 100%;
+}
+.foto-icerik h1{
+    color: coral;
+    font-size: 25px;
+    text-align: center;
+}
+.foto-icerik li{
+    color: white;
+    padding-top: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.foto-icerik h2{
+    color: rgb(217, 79, 30);
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 23px;
+}
+.linkler{
+    color: darkgray;
+}
+.linkler:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* İçerik */
+#ilk-yazi{
+    margin-top: 50px;
+}
+.yazi{
+    background-color: rgb(149, 121, 111);
+    border-radius: 25px;
+    width: 90%;
+    margin: 30px 0 0 50px;
+    height: auto;
+}
+.yazi p{
+    font-size: 20px;
+    padding: 20px 35px;
+    color: white;
+    font-family: "Times New Roman", "sans-serif";
+}
+.yazi img{
+    width: 100%;
+    height: 75%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.yazi h4{
+    padding-left: 20px;
+    color: white;
+    font-family: "Times New Roman", "sans-serif";
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.muzik{
+
+    margin-top: 25px;
+    height: 20px;
+    width: 100%;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(217, 79, 30);
+    height: 65px;
+    margin-top: 20px;
+}
+.footer-yazi{
+    float: right;
+    padding-top: 25px;
+    color: white;
+    font-size: 15px;
+}

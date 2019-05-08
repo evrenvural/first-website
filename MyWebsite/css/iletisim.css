@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-image: url("../images/header_picture.png");
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+nav{
+    background-color: rgb(217, 79, 30);
+}
+.navbar-nav{
+    margin-right: 34%;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+/* İletişim */
+.iletisim{
+    border: 1px black solid;
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 70%;
+    height: 950px;
+}
+.baslik{
+    text-align: center;
+    padding-top: 10px;
+}
+.mesaj{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.alt{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+input[type="text"] {
+    width: 70%;
+}
+input[type="email"]{
+    width: 70%;
+}
+span{
+    font-size: 20px;
+}
+.buton{
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(217, 79, 30);
+    height: 65px;
+    margin-top: 20px;
+}
+.footer-yazi{
+    float: right;
+    padding-top: 25px;
+    color: white;
+    font-size: 15px;
+}

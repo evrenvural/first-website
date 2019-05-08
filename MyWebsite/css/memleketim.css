@@ -1,0 +1,101 @@
+body{
+    background-color: antiquewhite;
+}
+.d-block{
+    height: 350px;
+}
+.carousel-caption {
+    padding-top: 0px;
+    padding-bottom: 250px;
+}
+
+/* Navbar */
+nav{
+    background-color: darkgreen;
+}
+.navbar-nav{
+    margin-right: 35%;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+/* İçerik */
+section{
+    margin-top: 25px;
+}
+.sol{
+    margin-left: 0;
+    border-radius: 20px;
+    background-color: #0b2e13;
+    height: 750px;
+    padding-top: 35px;
+}
+.sol-ust{
+    margin-left: 5%;
+    padding-top: 15px;
+    margin-right: 5%;
+}
+#foto{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+#sol-ust-yazi{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+.sol-alt{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 25px;
+    color: white;
+    width: 100%;
+    padding-bottom: 25px;
+}
+#ks-link{
+    color: wheat;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+#ks-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#ilk-yazi{
+    margin-top: 60px;
+}
+.yazi{
+    background-color: grey;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+.yazi p{
+    font-size: 20px;
+    padding: 20px 25px;
+    color: white;
+    font-family: "Times New Roman", "sans-serif";
+}
+
+/* Footer */
+.footer{
+    background-color: darkgreen;
+    height: 65px;
+    margin-top: 20px;
+}
+.footer-yazi{
+    float: right;
+    padding-top: 25px;
+    color: white;
+    font-size: 15px;
+}

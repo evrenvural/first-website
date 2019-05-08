@@ -1,0 +1,86 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-image: url("../images/header_picture.png");
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+nav{
+    background-color: rgb(217, 79, 30);
+}
+.navbar-nav{
+    margin-right: 34%;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+/* İçerik */
+.baslik{
+    text-align: center;
+    padding-top: 30px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+}
+table .baslik th{
+    border: 2px solid white;
+    background-color: darkred;
+    color: white;
+}
+th{
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+#ilkDegil{
+    margin-top: 30px;
+}
+.proje-basliklari{
+    text-align: center;
+    color: darkred;
+    margin-top: 20px;
+}
+.proje-foto{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-top: 10px
+}
+.proje-yazi{
+    padding: 2% 17%;
+    font-size: 20px;
+}
+.proje-link{
+    color: red;
+    text-decoration: none;
+}
+.proje-link:hover{
+    color: darkred;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(217, 79, 30);
+    height: 65px;
+    margin-top: 20px;
+}
+.footer-yazi{
+    float: right;
+    padding-top: 25px;
+    color: white;
+    font-size: 15px;
+}
